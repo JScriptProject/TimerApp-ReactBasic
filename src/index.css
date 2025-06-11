@@ -58,6 +58,7 @@ header p {
 .player-wrap {
     text-align: center;
     margin-block: 1rem;
+   
 }
 .player-wrap h3 {
     font-size: 1.8rem;
@@ -65,8 +66,12 @@ header p {
     color: #35c7c7;
 }
 
+.input-block{
+  display:flex;
+  
+}
 .input-block input {
-    min-width: 100px;
+    min-width: 60px;
     width: 150px;
     background-color: #0a3838;
     outline: none;
