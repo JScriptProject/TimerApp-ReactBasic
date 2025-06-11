@@ -58,7 +58,6 @@ header p {
 .player-wrap {
     text-align: center;
     margin-block: 1rem;
-   
 }
 .player-wrap h3 {
     font-size: 1.8rem;
@@ -66,9 +65,10 @@ header p {
     color: #35c7c7;
 }
 
-.input-block{
-  display:flex;
-  
+.input-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .input-block input {
     min-width: 60px;
@@ -209,8 +209,8 @@ header p {
     transition: background-color 0.2s linear;
 }
 
-.result-wrap button:hover{
-   background-color: #134646;
+.result-wrap button:hover {
+    background-color: #134646;
 }
 
 .result::backdrop {
